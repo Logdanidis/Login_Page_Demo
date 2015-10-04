@@ -1,0 +1,67 @@
+
+.jumbotronTopSpace {
+    margin-top: -40px;
+}
+
+.full button span {
+    background-color: limegreen;
+    border-radius: 32px;
+    color: black;
+}
+.partially button span {
+    background-color: orange;
+    border-radius: 32px;
+    color: black;
+}
+
+.inputSpace {
+    margin-top: 15px;
+}
+
+.center {
+    background-color: #eeeeee;
+    margin: auto;
+    width: 30%;
+    border:5px solid #35414f;
+    padding: 10px 50px 50px 50px;
+}
+
+.center2 {
+    background-color: #eeeeee;
+    margin: auto;
+    width: 90%;
+    border:5px solid #35414f;
+    padding: 10px 50px 50px 50px;
+}
+
+.center3 {
+    background-color: #B2D1D1;
+    margin: auto;
+    width: 100%;
+    border:5px solid #35414f;
+    padding: 10px 50px 50px 50px;
+}
+
+.logoutBackroundColor{
+    background-color: #618ca6;
+    position: relative;
+    height: 45px;
+}
+
+.logoutLabel {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.datePickerSize {
+    width: 70%;
+}
+.tabColor {
+    background-color: #CCFF33;
+}
+
+.tabColor2 {
+    background-color: #b0b0b0;
+}
+

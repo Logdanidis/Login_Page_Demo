@@ -1,0 +1,56 @@
+<div>
+    <div class="jumbotron jumbotronTopSpace">
+        <div class="container center2">
+            <div class="logoSize">
+                <img src="resources/images/beta_img.png">
+            </div>
+            <div class="logoutBackroundColor logoutButton" ng-controller="logoutCtrl">
+                <label class="logoutLabel">USER: {{ uname | uppercase}}
+                    <button type="button" class="btn btn-info" ng-click="logout()">
+                        Logout
+                    </button>
+                </label>
+            </div>
+            <div class="center3" ng-controller="TabsDemoCtrl">
+                <tabset justified="true">
+                    <tab heading="Home" class="tabColor">
+                        <div>
+                            <div>
+                                <h3>Welcome!</h3>
+                            </div>
+                            <div ng-controller="DatepickerDemoCtrl">
+                                <pre>Selected date is: <em>{{dt | date:'fullDate' }}</em></pre>
+                                <div style="display:inline-block; min-height:290px;">
+                                    <datepicker ng-model="dt" min-date="minDate" show-weeks="true" class="well well-sm" custom-class="getDayClass(date, mode)"></datepicker>
+                                </div>
+                                <div>
+                                    <button type="button" class="btn btn-sm btn-info" ng-click="today()">Today</button>
+                                </div>
+                            </div>
+                        </div>
+                    </tab>
+                    <tab heading="Art" class="tabColor">
+                        <div>
+                            <h3>Arts Tab</h3>
+                        </div>
+                        <div>
+                            <div>
+                                <img src="resources/images/1-3-myart2.jpg">
+                            </div>
+                        </div>
+                    </tab>
+                    <tab heading="About" class="tabColor">
+                        <div>
+                            <h3>Select Date</h3>
+                        </div>
+                        <div>
+                            <h4>
+                                This Is A Simple Login Page With AngularJS And BootstrapUI.
+                            </h4>
+                        </div>
+                    </tab>
+                </tabset>
+            </div>
+        </div>
+    </div>
+</div>
